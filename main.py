@@ -3,7 +3,7 @@ def print_hi(sayi):         # use two dots after function definition
     name = input()
     print("Hi", name, sayi)
 
-ders = 4
+ders = 5
 # list
 if ders == 1:   # after "if" must use two dots. "and" = && "or" = ||, "if" block can not be empty so use "pass"
     pass
@@ -23,7 +23,14 @@ if ders == 3:   #dictionary
     print( sozluk.values()) # values verir
     pass
 if ders == 4:
-    print("a","b","c",sep="[]") # sep=" " ne ile ayırmak istediğni gir, end=" " neyle bitirmek istediğini gir
+    print("a","b","c",sep="[]") # sep=" " ne ile ayırmak istediğni gir, end=" " satır atlamadn ayırmak istediğini gir
     pass
 if ders == 5:
+    liste=[]    # listeye öğe ekleme
+    alfabe="abcdefghijklmnprst"
+    for i in alfabe:
+        liste+= [i]
+    print(liste)
+    pass
+if ders== 6:
     pass
