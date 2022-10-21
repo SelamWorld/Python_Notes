@@ -3,7 +3,9 @@ def print_hi(sayi):         # use two dots after function definition
     name = input()
     print("Hi", name, sayi)
 
-ders = 6
+ders = -2  #####################################################################################################main#################
+
+
 # list
 if ders == 1:   # after "if" must use two dots. "and" = && "or" = ||, "if" block can not be empty so use "pass"
     pass
@@ -41,7 +43,7 @@ if ders== 6:    # zigzag
     try:
         while True:  # The main program loop.
             print(' ' * indent, end='')
-            print('********')
+            print('¯\_(ツ)_/¯')
             time.sleep(0.1)  # Print for 1/10 of a second.
 
             if indentIncreasing:
