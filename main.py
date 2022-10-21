@@ -3,7 +3,7 @@ def print_hi(sayi):         # use two dots after function definition
     name = input()
     print("Hi", name, sayi)
 
-ders = 5
+ders = 6
 # list
 if ders == 1:   # after "if" must use two dots. "and" = && "or" = ||, "if" block can not be empty so use "pass"
     pass
@@ -32,5 +32,31 @@ if ders == 5:
         liste+= [i]
     print(liste)
     pass
-if ders== 6:
+if ders== 6:    # zigzag
+    import time, sys
+
+    indent = 0  # How many spaces to indent.
+    indentIncreasing = True  # Whether the indentation is increasing or not.
+
+    try:
+        while True:  # The main program loop.
+            print(' ' * indent, end='')
+            print('********')
+            time.sleep(0.1)  # Print for 1/10 of a second.
+
+            if indentIncreasing:
+                # Increase the number of spaces:
+                indent = indent + 1
+                if indent == 20:
+                    # Change direction:
+                    indentIncreasing = False
+
+            else:
+                # Decrease the number of spaces:
+                indent = indent - 1
+                if indent == 0:
+                    # Change direction:
+                    indentIncreasing = True
+    except KeyboardInterrupt:
+        sys.exit()
     pass
