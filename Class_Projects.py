@@ -32,7 +32,7 @@ if ders== 1:   # kelimedeki harflerin hepsi büyük veya küçük ise true deği
     else:
         print("false")
     pass
-if ders == 0:
+if ders == 0:               # zigzag
     import time, sys
 
     indent = 0  # How many spaces to indent.
