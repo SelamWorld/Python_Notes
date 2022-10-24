@@ -1,3 +1,4 @@
+# Halil İbrahim Çalış ALl rights reserved. Github: https://github.com/SelamWorld/Python_Notes
 
 def Ayak_Sayisi():                # 1. soru AYAK SAYISI
     Animals=[0,0,0]
@@ -38,3 +39,4 @@ def Index_Carpici():     # 5. Soru İNDEX ÇARPICI
     for i in range(len(Indexlist)): # listeyi for dngüsüne al
         Toplam+=Indexlist[i]*i      # toplamı listenin her bir elemanının indexiyle çarpıp arttır
     print(Toplam)
+
