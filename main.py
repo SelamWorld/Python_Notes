@@ -6,7 +6,10 @@ def print_hi(sayi):         # use two dots after function definition
 ders = 1  #####################################################################################################main#################
 
 if ders == 0:
-    pass
+
+    stringh=["a","b","c","f"]
+    for i in range(4):
+        pass
 
 # list
 if ders == 1:   # after "if" must use two dots. "and" = && "or" = ||, "if" block can not be empty so use "pass"
