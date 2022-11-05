@@ -42,7 +42,7 @@ if ders == 0:               # zigzag
         while True:  # The main program loop.
             print(' ' * indent, end='')
             print('¯\_(ツ)_/¯')
-            time.sleep(0.1)  # Print for 1/10 of a second.
+            time.sleep(0.05)  # Print for 1/10 of a second.
 
             if indentIncreasing:
                 # Increase the number of spaces:
