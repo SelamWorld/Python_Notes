@@ -1,6 +1,18 @@
+import math
 
-
-ders = 0  #main#################################main##########MAİN########## MAİN #############################################3
+ders = 4  #main#################################main##########MAİN########## MAİN #############################################3
+if ders==5:
+    pass
+if ders==4: # kendisi ve üslü katı girilen sayının üslü katının kaçıncı üssü olduğunu bulan fonksiyon
+    a=int(input("sayı:"))
+    b=int(input("üssü:"))
+    us=1
+    while True:
+        b=b/a
+        us+=1
+        if b==a:
+            break
+    print(us)
 
 if ders == 3:   # üssü alma
     def sayius():
